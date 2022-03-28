@@ -1,0 +1,35 @@
+@keyframes text-anima {
+  from {left: 306px;}
+  to {left: 300px;}
+}
+
+.container-txt {
+    width: 30.25rem;
+    height: 12.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .txt-content {
+    font-size: 4rem;
+    line-height: 6.83rem;
+    letter-spacing: -0.3rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .txt-content.black {
+    animation-name: text-anima;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .txt-content.black {
+    color: var(--backgrond);
+    text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button),
+      -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+    position: absolute;
+    left: 306px;
+    top: 190px;
+  }

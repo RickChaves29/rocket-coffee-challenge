@@ -1,0 +1,15 @@
+.container-menu {
+    display: flex;
+    width: 27rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-btn {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.menu-btn:hover {
+    text-decoration-line: overline;
+    text-decoration-color: var(--button);
+}

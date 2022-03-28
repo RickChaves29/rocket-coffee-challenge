@@ -1,0 +1,11 @@
+.container-home-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.coffe-logo {
+  width: 598.78px;
+  height: 406.47px;
+}
